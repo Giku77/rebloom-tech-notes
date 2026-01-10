@@ -1,0 +1,17 @@
+site_name: Re:Bloom Tech Notes
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Core Systems:
+      - Quest & Tutorial: quest.md
+      - Building System: building.md
+      - Farming Automation: farming.md
+      - Save/Load & Server: save-load.md
+  - Architecture:
+      - UI Architecture: ui-architecture.md
+      - Data Pipeline (BG DB): data-pipeline.md
+  - Performance & Ops:
+      - Optimization: optimization.md
+      - Repo & Automation: ops-automation.md
