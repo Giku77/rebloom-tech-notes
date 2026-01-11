@@ -4,17 +4,5 @@
 각 조건을 **상호작용 시스템과 연결**해 확장 가능한 구조로 구현했습니다.
 
 ## System Overview
-```mermaid
-flowchart LR
-  A[Tutorial Complete] --> B[Main Quest Start]
-  B --> C{Condition Type}
-  C -->|Interact| D[Interaction Binding]
-  C -->|Reach Destination| E[Waypoint Guide]
-  D --> F[Progress Update]
-  E --> F
-  F --> G[UI Feedback / Toast]
-  F --> H{Quest Finished?}
-  H -->|No| B
-  H -->|Yes| I[Reward & Next Quest]
-  I --> J[Ending Cutscene]
+[![Quest & Tutorial Flow](assets/quest/Overview.png)](assets/quest/Overview.png)
 
