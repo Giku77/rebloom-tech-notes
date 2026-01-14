@@ -4,14 +4,27 @@ theme:
 
 nav:
   - Home: index.md
+
   - Core Systems:
       - Quest & Tutorial: quest.md
-      - Building System: building.md
+
+      - Building System:
+          - Overview: building/index.md
+          - Placement & Preview: building/placement.md
+          - Validation Rules: building/validation.md
+          - Ground Snap: building/ground_snap.md
+          - Grid Occupancy: building/occupancy.md
+          - Corridor Connection: building/corridor.md
+          - Edit Mode: building/edit_mode.md
+          - Integrations: building/integration.md
+
       - Farming Automation: farming.md
       - Save/Load & Server: save-load.md
+
   - Architecture:
       - UI Architecture: ui-architecture.md
       - Data Pipeline (BG DB): data-pipeline.md
+
   - Performance & Ops:
       - Optimization: optimization.md
       - Repo & Automation: ops-automation.md
