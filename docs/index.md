@@ -5,7 +5,7 @@ Re:Bloom은 생존·거점 성장(건축/농사/제작) 중심의 크로스플�
 
 ## Quick Links
 - [Quest & Tutorial](quest.md) — 퀘스트 조건 타입/길안내/엔딩 컷씬/녹지화 연동
-- [Building System](building.md) — 연결형/자유배치, 규칙 검사, 편집 모드, 프리팹 자동 보정
+- [Building System](building/index.md) — 연결형/자유배치, 규칙 검사, 편집 모드, 프리팹 자동 보정
 - [Farming Automation](farming.md) — 물탱크→스프링쿨러→드론→창고 자동화 파이프라인
 - [Save/Load & Server](save-load.md) — 로컬↔서버 자동 전환 + PlayFab
 - [UI Framework](ui-framework.md) — UIBase + UIManager(입력/겹침 제어) + 토스트
