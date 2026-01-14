@@ -28,3 +28,4 @@ if (hitCount == 0) { errorCode = "NO_GROUND"; return false; }
 if ((maxY - minY) > maxHeightDiff) { errorCode = "SLOPE_TOO_HIGH"; return false; }
 
 adjustedPos = new Vector3(center.x, maxY - ctx.DepthOffset, center.z);
+```

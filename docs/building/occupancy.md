@@ -23,3 +23,4 @@ var cells = GetCellsFromFootprint(fp, p.transform.position, p.transform.rotation
 
 GridOccupancyManager.I?.Occupy(bInstance, cells);
 AutoSaveService.I?.RequestSave("Build");
+```
