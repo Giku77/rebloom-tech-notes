@@ -18,7 +18,11 @@ nav:
           - Edit Mode: building/edit_mode.md
           - Integrations: building/integration.md
 
-      - Farming Automation: farming.md
+      - Farming System:
+          - Overview: farming/index.md
+          - FarmBed: farming/slotstatemachine.md
+          - Automation: farming/farmingautomation.md
+          - Cultivation Machine: farming/cultivationmachine.md
       - Save/Load & Server: save-load.md
 
   - Architecture:
